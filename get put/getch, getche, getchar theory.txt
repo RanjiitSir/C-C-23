@@ -1,0 +1,47 @@
+
+	Character I/O Function :
+							Following are few predefined functions to accept & display a character.
+							These are defined in <conio.h> header file.
+
+		getch()
+				getch() accepts a character from input device/keyboard, 
+				but does not echo/display to console/screen/output device.
+
+				It is mostly used to wait for a keypress in program.
+				getch also returns that entered character 
+				we can store it in variable
+		
+		getche()
+				getche() accepts a character from input device/keyboard, 
+				but it echos/displays that character to console/screen/output device.
+
+				It is mostly used to accept single character.
+				getche also returns that entered character 
+				we can store it in variable
+		
+		getchar()
+				getchar() accepts multiple characters (String) from input device/keyboard, 
+				but it echos/displays that character to console/screen/output device & 
+				It returns only 1st character entered in that given string.
+				It stops accepting when enter key pressed on keyboard.
+
+				It is mostly used to accept single character.
+				getchar also returns that entered 1st character 
+				we can store it in variable
+		
+		putch()
+		putchar()
+				putch() , putchar() are the functions to display a single character on output device / Monitor.
+				You can print printable characters or escape sequences behavior using these functions.
+				But keep in mind they can only process single character at a time.
+		
+	------------------------------------------------------------------------------------------------------------------
+		
+	String I/O Functions
+		
+		gets()
+		
+		
+		puts()
+		
+	-----------------------------------------------------------------------------	
